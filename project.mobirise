@@ -8,7 +8,7 @@
       "styling": {}
     },
     "versionFirst": "3.9.0",
-    "uniqCompNum": 10,
+    "uniqCompNum": 13,
     "versionPublish": "3.10.8",
     "favicon": "",
     "noImageResize": ""
@@ -82,11 +82,11 @@
           "_name": "slider",
           "_params": {
             "autoplay": true,
-            "paddingTop": 3,
-            "paddingBottom": 3,
+            "paddingTop": "1",
+            "paddingBottom": "1",
             "slides": [
               {
-                "active": true,
+                "active": false,
                 "image": "images/slide1.jpg",
                 "contentAlign": "right",
                 "overlay": false,
@@ -98,7 +98,7 @@
                 "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
               },
               {
-                "active": false,
+                "active": true,
                 "image": "images/slide2.jpg",
                 "contentAlign": "left",
                 "showTitle": true,
@@ -110,7 +110,7 @@
               },
               {
                 "active": false,
-                "image": "images/slide3.jpg",
+                "image": "@PROJECT_PATH@/assets/images/full-unsplash-photo-1471174466996-0aa69dbda661-2000x1602.jpg",
                 "contentAlign": "center",
                 "showTitle": true,
                 "title": "Slide 3",
@@ -121,11 +121,69 @@
               }
             ],
             "fullScreen": false,
-            "bgColor": "#ffffff",
+            "bgColor": "#27aae0",
             "showBullets": true
           },
           "_anchor": "slider-2",
           "articleLayout": false
+        },
+        {
+          "items": [
+            {
+              "text": "<p class=\"mbr-reviews__p\">“its really very amazing app that makes me finish html page in 3 minutes ( that's usually takes more than 1 hours at least from me if i did it from scratch). i hope to have very big library and plugins for this APP thanks again for your nice application”</p>",
+              "authorName": "ABANOUB S.",
+              "authorBio": "User"
+            },
+            {
+              "text": "<p class=\"mbr-reviews__p\">“First of all hands off to you guys for your effort and nice, super tool. Good work mobirise team. We are expecting the new version soon with advance functionality with full bootstrap design. Great effort and super UI experience with easy drag & drop with no time design bootstrap builder in present web design world.”</p>",
+              "authorName": "SUFFIAN A.",
+              "authorBio": "User"
+            },
+            {
+              "text": "<p class=\"mbr-reviews__p\">“At first view, looks like a nice innovative tool, i like the great focus and time that was given to the responsive design, i also like the simple and clear drag and drop features. Give me more control over the object's properties and ill be using this tool for more serious projects. Regards.”</p>",
+              "authorName": "JHOLLMAN C.",
+              "authorBio": "User"
+            }
+          ],
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "testimonials1",
+          "testimonial": [
+            {
+              "text": "<p class=\"mbr-reviews__p\">“its really very amazing app that makes me finish html page in 3 minutes ( that's usually takes more than 1 hours at least from me if i did it from scratch). i hope to have very big library and plugins for this APP thanks again for your nice application”</p>",
+              "authorName": "ABANOUB S.",
+              "authorBio": "User"
+            },
+            {
+              "text": "<p class=\"mbr-reviews__p\">“First of all hands off to you guys for your effort and nice, super tool. Good work mobirise team. We are expecting the new version soon with advance functionality with full bootstrap design. Great effort and super UI experience with easy drag & drop with no time design bootstrap builder in present web design world.”</p>",
+              "authorName": "SUFFIAN A.",
+              "authorBio": "User"
+            },
+            {
+              "text": "<p class=\"mbr-reviews__p\">“At first view, looks like a nice innovative tool, i like the great focus and time that was given to the responsive design, i also like the simple and clear drag and drop features. Give me more control over the object's properties and ill be using this tool for more serious projects. Regards.”</p>",
+              "authorName": "JHOLLMAN C.",
+              "authorBio": "User"
+            }
+          ],
+          "_anchor": "testimonials1-a",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "count": 3,
+            "showName": true,
+            "showBio": true,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true
+          },
+          "header": "WHAT OUR FANTASTIC USERS SAY"
         },
         {
           "_tags": [
@@ -202,9 +260,10 @@
             "overlayOpacity": 0.8,
             "overlayColor": "#3C3C3C",
             "googleMap": {
-              "placeId": "ChIJn6wOs6lZwokRLKy1iqRcoKw",
-              "address": "350 5th Ave, New York, NY 10118",
-              "state": "ok"
+              "address": "ndenderu",
+              "placeId": "ChIJz_cCUfkiLxgR8aNdPOn6Lho",
+              "state": "ok",
+              "stateDetails": ""
             }
           },
           "text1": "<strong>ADDRESS</strong><br>\n1234 Street Name<br>\nCity, AA 99999<br><br>\n<strong>CONTACTS</strong><br>\nEmail: support@mobirise.com<br>\nPhone: +1 (0) 000 0000 001<br>\nFax: +1 (0) 000 0000 002",
@@ -283,9 +342,10 @@
             "overlayOpacity": 0.8,
             "overlayColor": "#3C3C3C",
             "googleMap": {
-              "placeId": "ChIJn6wOs6lZwokRLKy1iqRcoKw",
-              "address": "350 5th Ave, New York, NY 10118",
-              "state": "ok"
+              "placeId": "ChIJz_cCUfkiLxgR8aNdPOn6Lho",
+              "address": "ndenderu",
+              "state": "ok",
+              "stateDetails": ""
             }
           },
           "text1": "<strong>ADDRESS</strong><br>\n1234 Street Name<br>\nCity, AA 99999<br><br>\n<strong>CONTACTS</strong><br>\nEmail: support@mobirise.com<br>\nPhone: +1 (0) 000 0000 001<br>\nFax: +1 (0) 000 0000 002",
